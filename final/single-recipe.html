@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single Recipe</title>
-    <!-- favicon -->
+    
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <!-- normalize -->
+    
     <link rel="stylesheet" href="./css/normalize.css" />
-    <!-- font-awesome -->
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <!-- main css -->
+    
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="css/aos.css">
   </head>
   <body>
-    <!-- nav  -->
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    
     <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
           <a href="index.html" class="nav-logo">
-            <img src="./assets/logo.svg" alt="simply recipes" />
+            <!-- <img src="./assets/logo.svg" alt="simply recipes" /> -->
           </a>
           <button class="nav-btn btn">
             <i class="fas fa-align-justify"></i>
@@ -41,17 +44,17 @@
         </div>
       </div>
     </nav>
-    <!-- end of nav -->
+    
     <main class="page">
       <div class="recipe-page">
         <section class="recipe-hero">
-          <img
+          <img data-aos="fade-up" data-aos-duration="300"
             src="./assets/recipes/recipe-4.jpeg"
             class="img recipe-hero-img"
           />
           <article class="recipe-info">
-            <h2>Banana Pancakes</h2>
-            <p>
+            <h2 data-aos="fade-up" data-aos-duration="600">Banana Pancakes</h2>
+            <p data-aos="fade-up" data-aos-duration="900">
               Shabby chic humblebrag banh mi bushwick, banjo kale chips
               meggings. Cred selfies sartorial, cloud bread disrupt blue bottle
               seitan. Dreamcatcher tousled bitters, health goth vegan venmo
@@ -86,57 +89,55 @@
             </p>
           </article>
         </section>
-        <!-- content -->
+        
         <section class="recipe-content">
           <article>
-            <h4>instructions</h4>
-            <!-- single instruction -->
+            <h4 data-aos="fade-up" data-aos-duration="300">instructions</h4>
+           
             <div class="single-instruction">
               <header>
                 <p>step 1</p>
                 <div></div>
               </header>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="300">
                 I'm baby mustache man braid fingerstache small batch venmo
                 succulents shoreditch.
               </p>
             </div>
-            <!-- end of single instruction -->
-            <!-- single instruction -->
+          
             <div class="single-instruction">
               <header>
                 <p>step 2</p>
                 <div></div>
               </header>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="300">
                 Pabst pitchfork you probably haven't heard of them, asymmetrical
                 seitan tousled succulents wolf banh mi man bun bespoke selfies
                 freegan ethical hexagon.
               </p>
             </div>
-            <!-- end of single instruction -->
-            <!-- single instruction -->
+            
             <div class="single-instruction">
               <header>
                 <p>step 3</p>
                 <div></div>
               </header>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="300">
                 Polaroid iPhone bitters chambray. Cornhole swag kombucha
                 live-edge.
               </p>
             </div>
-            <!-- end of single instruction -->
+           
           </article>
           <article class="second-column">
             <div>
-              <h4>ingredients</h4>
+              <h4 data-aos="fade-up" data-aos-duration="600">ingredients</h4>
               <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
               <p class="single-ingredient">1/2 cup flax seed meal</p>
               <p class="single-ingredient">1 cup skim milk</p>
             </div>
             <div>
-              <h4>tools</h4>
+              <h4 data-aos="fade-up" data-aos-duration="700">tools</h4>
               <p class="single-tool">Hand Blender</p>
               <p class="single-tool">Large Heavy Pot With Lid</p>
               <p class="single-tool">Measuring Spoons</p>
@@ -146,7 +147,7 @@
         </section>
       </div>
     </main>
-    <!-- footer -->
+   
     <footer class="page-footer">
       <p>
         &copy; <span id="date"></span>
